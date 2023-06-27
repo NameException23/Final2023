@@ -6,8 +6,6 @@ pageClass: home
 tags: page
 ---
 
-<!-- ## Dedicated to the 27x World Series Champions of Major League Baseball.   "In a perfect world, we'd all be Yankees ..." -->
-
 ## New York Yankeees
 #### 뉴욕 양키스
 #### Yankees de Nueva York
