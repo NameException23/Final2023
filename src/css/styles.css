@@ -180,11 +180,8 @@ figure figcaption {
 
 .about {
   color: rgb(20, 25, 66);
+  font-size: 85%;
   margin: 0 auto;
-}
-
-.about img {
-  max-width: 30%;
 }
 
 .about a {
