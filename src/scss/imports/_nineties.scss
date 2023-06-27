@@ -1,0 +1,49 @@
+.nineties {
+  background-image: url("../img/celebration-background.gif");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.nineties a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.secondary aside {
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    list-style-type: none;
+    li {
+      flex-basis: 28%;
+      margin: 2px;
+      padding: 4px;
+      background-color: #fff;
+      border: none;
+      transition: all 0.25s linear;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
+
+figure {
+  position: relative;
+  margin: 0;
+  figcaption {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+

@@ -1,0 +1,35 @@
+.videos {
+  background-image: url("../img/judge-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: 95%;
+  margin: 0 auto;
+}
+
+.videos a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.content-video {
+  iframe {
+    background: #222;
+    height: 320px;
+    width: 100%;
+  }
+  .btn-list {
+    padding: 6px;
+    display: flex;
+    list-style: none;
+    li {
+      margin: 1rem;
+    }
+    .active {
+      border-radius: 4px;
+      background: #fff;
+      color: #141942;
+      padding: 0.5rem;
+    }
+  }
+}

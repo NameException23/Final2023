@@ -1,0 +1,27 @@
+{
+  "name": "final2023",
+  "version": "1.0.0",
+  "description": "## Final2023",
+  "main": "index.js",
+  "scripts": {
+    "11ty": "eleventy --serve",
+    "sass": "sass src/scss/styles.scss src/css/styles.css --watch",
+    "start": "npm-run-all -p 11ty sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NameException23/Final2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NameException23/Final2023.git/issues"
+  },
+  "homepage": "https://github.com/NameException23/Final2023.git#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "npm-run-all": "^1.7.0",
+    "sass": "^1.63.6"
+  }
+}
